@@ -1,11 +1,11 @@
 from selenium import webdriver
 
-chrome_options = webdriver.ChromeOptions()
-chrome_options.set_capability("browserVersion", "67")
-chrome_options.set_capability("platformName", "Windows XP")
+Chrome_options = webdriver.ChromeOptions()
 driver = webdriver.Remote(
-    command_executor='http://localhost:4444/wd/hu``',
-    options=chrome_options
+    command_executor="http://localhost:4444/wd/hub",
+    options=Chrome_options
+    options.selonide.options.enableVNC = True
+
 )
 driver.get("http://www.google.com")
 driver.quit()

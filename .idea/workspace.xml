@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cc14643-7090-4d37-a5ee-f7744f370fd2" name="Changes" comment="pytest second lesson">
-      <change afterPath="$PROJECT_DIR$/my_functions/prodfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenide/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_prodfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_fileworkers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_prodfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenide/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenide/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +41,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/nikbe/PycharmProjects/pythonProject1/tests",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -251,6 +245,11 @@
           <url>file://$PROJECT_DIR$/requests/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/selenide/config.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
